@@ -16,7 +16,7 @@ RUN npm run build
 
 # Serve the app with a lightweight server
 RUN npm install -g serve
-CMD ["serve", "-s", "build", "-l", "8000"]
+CMD ["serve", "-s", "build", "-l", "3000", "-n"]
 
 # Expose port
-EXPOSE 8000
+EXPOSE 3000
