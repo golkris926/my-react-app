@@ -26,8 +26,8 @@ function App() {
       {/* Page Content */}
       <div className="flex-1">
         <Routes>
-          <Route path="/" element={<Login />} />
-          <Route path="/Home" element={<Home />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
       </div>
     </div>
